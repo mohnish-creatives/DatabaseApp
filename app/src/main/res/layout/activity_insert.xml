@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ur6467.databaseapp.InsertActivity"
+    >
+
+    <TextView
+        android:id="@+id/txtNameInsert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="61dp"
+        android:text="@string/textNameInsert" />
+
+    <TextView
+        android:id="@+id/txtMobileInsert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtMobileInsert"
+        android:layout_above="@+id/edEmailInsert"
+        android:layout_alignStart="@+id/txtNameInsert" />
+
+    <TextView
+        android:id="@+id/txtEmailInsert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtMobileInsert"
+        android:layout_below="@+id/txtMobileInsert"
+        android:layout_marginTop="55dp"
+        android:text="@string/txtEmailInsert" />
+
+    <EditText
+        android:id="@+id/edNameInsert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="28dp"
+        android:layout_marginTop="42dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edMobileInsert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/edNameInsert"
+        android:layout_below="@+id/edNameInsert"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edEmailInsert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/edMobileInsert"
+        android:layout_below="@+id/edMobileInsert"
+        android:layout_marginTop="26dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnInsertRecord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edEmailInsert"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:text="@string/btnInsertRecord" />
+
+    <TextView
+        android:id="@+id/txtLabelInsert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/txtNameInsert"
+        android:layout_marginTop="14dp"
+        android:text="@string/txtLabelInsert"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</RelativeLayout>

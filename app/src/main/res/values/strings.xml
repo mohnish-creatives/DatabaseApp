@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Car Inventory</string>
+    <string name="btnInsertMain">Add</string>
+    <string name="btnSearchMain">Search</string>
+    <string name="btnViewAllMain">View</string>
+    <string name="textNameInsert">No</string>
+    <string name="txtMobileInsert">Color</string>
+    <string name="txtEmailInsert">Model</string>
+    <string name="btnInsertRecord">Add</string>
+    <string name="txtLabelInsert">Add record</string>
+
+
+</resources>

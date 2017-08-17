@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ur6467.databaseapp.UpdateActivity">
+
+    <TextView
+        android:id="@+id/txtLabelUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="37dp"
+        android:text="Update"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtColorUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtLabelUpdate"
+        android:layout_below="@+id/txtLabelUpdate"
+        android:layout_marginTop="45dp"
+        android:text="Color" />
+
+    <TextView
+        android:id="@+id/txtPlaceUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtColorUpdate"
+        android:layout_below="@+id/txtColorUpdate"
+        android:layout_marginTop="34dp"
+        android:text="Place" />
+
+    <EditText
+        android:id="@+id/edColorUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtLabelUpdate"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="29dp"
+        android:layout_toEndOf="@+id/txtLabelUpdate"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edPlaceUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/edColorUpdate"
+        android:layout_alignTop="@+id/txtPlaceUpdate"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnUpdateUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/edPlaceUpdate" />
+
+    <Button
+        android:id="@+id/btnDeleteUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnUpdateUpdate"
+        android:layout_alignBottom="@+id/btnUpdateUpdate"
+        android:layout_alignEnd="@+id/edPlaceUpdate"
+        android:layout_marginEnd="10dp"
+        android:text="Delete" />
+</RelativeLayout>

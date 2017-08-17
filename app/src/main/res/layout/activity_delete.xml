@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ur6467.databaseapp.DeleteActivity">
+
+    <TextView
+        android:id="@+id/txtLableDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete record"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/edMobileDelete"
+        android:layout_marginTop="43dp" />
+
+    <EditText
+        android:id="@+id/edMobileDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="85dp"
+        android:layout_below="@+id/txtLableDelete"
+        android:layout_alignStart="@+id/btnDeleteDelete" />
+
+    <Button
+        android:id="@+id/btnDeleteDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="210dp" />
+
+    <TextView
+        android:id="@+id/txtMobileDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile"
+        android:layout_alignBaseline="@+id/edMobileDelete"
+        android:layout_alignBottom="@+id/edMobileDelete"
+        android:layout_alignEnd="@+id/txtLableDelete"
+        android:layout_marginEnd="26dp" />
+</RelativeLayout>
